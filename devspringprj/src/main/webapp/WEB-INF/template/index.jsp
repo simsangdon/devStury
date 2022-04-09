@@ -8,6 +8,6 @@
         alert("테스트 ${name}, ${value}");
     </script>
     <body>
-        <div>Hello, ${name}, ${value}심상돈___수정입니다._다시 수정입니다.</div>
+        <div>Hello, ${name}, ${value}심상돈.</div>
     </body>
 </html>
