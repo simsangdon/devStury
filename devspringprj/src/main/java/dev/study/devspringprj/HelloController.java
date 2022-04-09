@@ -15,7 +15,7 @@ public class HelloController {
         model.addAttribute("name" , name );
         model.addAttribute("value", value);
     
-        System.out.println("111");
+        System.out.println("수정 테스트 입니다.");
         return "index";
     }
 }
