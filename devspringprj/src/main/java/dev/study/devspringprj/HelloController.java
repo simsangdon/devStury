@@ -15,7 +15,6 @@ public class HelloController {
         model.addAttribute("name" , name );
         model.addAttribute("value", value);
     
-        System.out.println("수정 SSD_테스트 입니다.");
         return "index";
     }
 }
