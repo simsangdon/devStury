@@ -14,22 +14,20 @@ repositories {
 }
 
 dependencies {
-	//compile 'javax.servlet.jsp:jsp-api:2.2'
-
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
-	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-
-	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'
-	implementation 'javax.servlet:jstl'	
-	implementation 'org.projectlombok:lombok'
-	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-
-	// implementation 'mysql:mysql-connector-java'
-	// implementation 'org.springframework.boot:spring-boot-starter-security'
-    // implementation 'org.springframework.security:spring-security-taglibs'
-	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'      /* 톰캣 */
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'  
+  
+	implementation 'org.springframework.boot:spring-boot-starter-web'          /* spring web */
+	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'               /* jsp 템플릿 */
+	implementation 'javax.servlet:jstl'	                                       /* jstl */
+	implementation 'org.projectlombok:lombok'                                  /* get/set 같은거 자동완성에 편한 라이브러리 */
+ 
+	// implementation 'mysql:mysql-connector-java'                             /* mySql드라이버 */
+	// implementation 'org.springframework.boot:spring-boot-starter-security'  /* spring 시큐리티 */
+    // implementation 'org.springframework.security:spring-security-taglibs'   /* 테그라이브러리 */
+	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'  /* jpa */
+	// implementation 'org.springframework.boot:spring-boot-starter-thymeleaf' /* 타입리프 템플릿 */
 }
 
 tasks.named('test') {
