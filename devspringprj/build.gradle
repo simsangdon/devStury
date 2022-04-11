@@ -20,7 +20,7 @@ dependencies {
     
 	implementation 'org.springframework.boot:spring-boot-starter-web'            /* spring web */
 	implementation 'org.apache.tomcat.embed:tomcat-embed-jasper'                 /* jsp 템플릿 */
-	implementation 'javax.servlet:jstl'	                                         /* jstl */
+	implementation 'javax.servlet:jstl'                                          /* jstl */
 	implementation 'org.projectlombok:lombok'                                    /* get/set 같은거 자동완성에 편한 라이브러리 */
 	implementation 'com.oracle.database.jdbc:ojdbc8'                             /* oracle jdbc */
 	implementation 'org.mybatis:mybatis:3.5.9'                                   /* mybatis */
