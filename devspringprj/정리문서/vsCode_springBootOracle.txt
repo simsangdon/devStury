@@ -1,19 +1,8 @@
-plugins {
-	id 'org.springframework.boot' version '2.6.6'
-	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
-	id 'java'
-	id 'war'
-}
+1. https://www.youtube.com/watch?v=X19Ipam9Pwo&t=3s
 
-group = 'dev.study'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+2. build.gradle 설정
+build.gradle 설정
 
-repositories {
-	mavenCentral()
-}
-
-dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'        /* 톰캣 */
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'    
@@ -32,8 +21,4 @@ dependencies {
     //  implementation 'org.springframework.security:spring-security-taglibs'    /* 테그라이브러리 */
 	// implementation 'org.springframework.boot:spring-boot-starter-data-jpa'    /* jpa */
 	// implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'   /* 타입리프 템플릿 */
-}
 
-tasks.named('test') {
-	useJUnitPlatform()
-}
