@@ -11,10 +11,9 @@ public class mybatisController {
 
     @Autowired
     private BoardMapper boardMapper;
-    
+
     @GetMapping("/board/list")
     public List<Board> getBoardList() {
         return boardMapper.selectList();
     }
-    
 }

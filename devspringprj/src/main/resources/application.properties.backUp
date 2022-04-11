@@ -5,7 +5,9 @@ spring.mvc.view.prefix=/WEB-INF/template/
 spring.mvc.view.suffix=.jsp
 
 #Oracle DataSource
-spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+#spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
+# 오라클 9 버젼 부터 위에 거가 아니고 아래 거로 설정
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
 #spring.datasource.url=jdbc:oracle:thin:@localhost:1521/xe
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521:xe
 spring.datasource.username=hr
