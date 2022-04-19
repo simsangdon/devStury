@@ -12,6 +12,7 @@ public class BlogControllerTest {
 
     @GetMapping("/test/hello")
     public String hello() {
+        System.out.println("테스트 입니다.");
         return "<div>hello spring boot</div>";
     }
 }
