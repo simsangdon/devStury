@@ -109,7 +109,7 @@ public class Server {
                 e.printStackTrace();
             }
         }
-        log.info("요청 응답 : " + sb.toString());
+        System.out.println("요청 응답 : " + sb.toString());
     }    
 
     public static void apiTest(String action) throws Exception {

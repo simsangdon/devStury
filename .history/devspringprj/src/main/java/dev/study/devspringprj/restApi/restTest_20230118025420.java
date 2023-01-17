@@ -1,16 +1,17 @@
 package dev.study.devspringprj.restApi;
 
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-@Slf4j
 public class restTest {
+    private static Logger log = LoggerFactory.getLogger(getClass());
     public static void main(String[] args) {
         Server server = new Server();
         try {
-            log.info("test__rest");
             server.apiTest("post");
-            
+            log.info("test_hello");
         } catch (Exception e) {
+            // TODO Auto-generated catch block
             e.printStackTrace();
         }
     }
