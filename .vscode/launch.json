@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch restTest",
+            "request": "launch",
+            "mainClass": "dev.study.devspringprj.restApi.restTest",
+            "projectName": "devspringprj"
+        },
+        {
+            "type": "java",
             "name": "Spring Boot-DevspringprjApplication<devspringprj>",
             "request": "launch",
             "cwd": "${workspaceFolder}",

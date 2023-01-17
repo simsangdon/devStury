@@ -34,7 +34,6 @@ dependencies {
 	// implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'   /* 타입리프 템플릿 */
 
 	implementation group: 'org.json', name: 'json', version: '20220924'          /* json */
-	implementation 'com.github.tsohr:json:0.0.2'
 	//implementation 'org.json:json:20220924'
 }
 
