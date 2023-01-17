@@ -1,0 +1,5 @@
+Run SQL Common Line 실행
+conn / as sysdba  <== sys계정 접근
+alter user HR account unlock;  <== 잠긴 계정 unlock
+alter user HR identified by donbq; <== 계정 비밀번호 변경
+alter profile default limit password_life_time unlimited;  <== 비밀번호 유효기간 해재
