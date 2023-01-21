@@ -13,6 +13,9 @@ spring:
     url: jdbc:oracle:thin:@localhost:1521:xe
     username: hr
     password: donbq
+  output:
+    ansi:
+      enabled: always
 
 mybatis:
   type-aliases-package: dev.study.devspringprj
