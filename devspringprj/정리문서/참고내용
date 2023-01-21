@@ -29,3 +29,9 @@ git사용시 초반에 user.name, user.email을 셋팅해 줘야 한다.
 cd .git  <== git루트 디렉토리로 이동
 git config user.name "사용자이름"   <== 사용자 셋팅
 get config user.email "이메일 주소" <== 이메일 셋팅
+
+오라클 교육용 버전
+https://blog.naver.com/ai_bigdata_cloud/222926134219
+
+오라클 설정 참고
+https://blog.naver.com/explorer76/222932516398
