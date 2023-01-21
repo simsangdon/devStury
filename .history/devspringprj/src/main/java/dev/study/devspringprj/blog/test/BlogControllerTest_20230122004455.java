@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @Slf4j
 public class BlogControllerTest {
-    // TODO : @Slf4j 어노테이션을 사용하면 아래 log선언부를 삭제할수 있다.
+    // @Slf4j 어노테이션을 사용하면 아래 log선언부를 삭제할수 있다.
     // private Logger log = LoggerFactory.getLogger(getClass());
     @GetMapping("/test/hello")
     public String hello() {

@@ -16,7 +16,7 @@ import lombok.extern.slf4j.Slf4j;
 public class Server {
     public static void apiTestGet(String sendUrl, String value) throws Exception {
         int respCode = 0;
-        StringBuffer sb = new StringBuffer();
+        StringBuffer sb = null;
         BufferedReader br = null;
         BufferedReader bw = null;
 
