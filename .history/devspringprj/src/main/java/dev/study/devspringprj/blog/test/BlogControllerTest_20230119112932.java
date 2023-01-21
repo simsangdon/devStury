@@ -3,7 +3,6 @@ package dev.study.devspringprj.blog.test;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.study.devspringprj.restApi.Server;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -11,23 +10,11 @@ import lombok.extern.slf4j.Slf4j;
  * 특정 어노테이션이 붙어있는 클래스 파일들을 new해서(IoC) 스프링 컨테이너에서 관리해줌
  */
 @RestController
-@Slf4j
 public class BlogControllerTest {
     //TODO : @Slf4j 어노테이션을 사용하면 아래 log선언부를 삭제할수 있다.
     //private Logger log = LoggerFactory.getLogger(getClass());
     @GetMapping("/test/hello")
     public String hello() {
-        log.info("잘되나? 궁금하군.");
-
-        Server server = new Server();
-        try {
-            log.info("rest실행 실습");
-            server.apiTest("get");
-            
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-                
         return "<div>hello spring boot_심상돈111</div>";
     }
 }

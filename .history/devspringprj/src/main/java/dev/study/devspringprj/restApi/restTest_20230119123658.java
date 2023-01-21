@@ -8,7 +8,7 @@ public class restTest {
         Server server = new Server();
         try {
             log.info("rest실행 실습");
-            server.apiTest("get");
+            server.apiTest("post");
             
         } catch (Exception e) {
             e.printStackTrace();

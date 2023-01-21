@@ -17,6 +17,3 @@ spring:
 mybatis:
   type-aliases-package: dev.study.devspringprj
   mapper-locations: classpath:*.xml
-
-logging:
-  config: classpath:log4j2.yml

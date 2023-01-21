@@ -12,7 +12,6 @@ import org.json.JSONObject;
 
 import lombok.extern.slf4j.Slf4j;
 
-@Slf4j
 public class Server {
     public static void apiTestGet(String sendUrl, String value) throws Exception{
         int respCode = 0;
@@ -36,7 +35,6 @@ public class Server {
                 String line;
 
                 while((line = br.readLine()) != null) {
-                    line = uniToKor(line);
                     sb.append(line).append("\n");
                 }
                 respCode = con.getResponseCode();
@@ -59,7 +57,7 @@ public class Server {
                 ex.printStackTrace();
             }
         }
-        log.info("요청 응답 : " + respCode + "\n" + sb.toString());
+        //log.info("요청 응답 : " + respCode + "\n" + sb.toString());
     }
 
     public static void apiTestPost(String sendUrl, String value) throws Exception {
@@ -91,7 +89,6 @@ public class Server {
                 String line;
 
                 while ((line = br.readLine()) != null) {
-                    line = uniToKor(line);
                     sb.append(line).append("\n");
                 }
                 br.close();
@@ -111,7 +108,7 @@ public class Server {
                 e.printStackTrace();
             }
         }
-        log.info("요청 응답 : " + sb.toString());
+        //log.info("요청 응답 : " + sb.toString());
     }    
 
     public static void apiTest(String action) throws Exception {
@@ -140,36 +137,5 @@ public class Server {
                 apiTestGet("https://nghttp2.org/httpbin/", null);
                 break;
         }
-    }
-
-    /* Unicode에서 한글로 변환 */
-    public static String uniToKor(String uni){
-        StringBuffer result = new StringBuffer();
-        
-        for(int i=0; i<uni.length(); i++){
-            if(uni.charAt(i) == '\\' &&  uni.charAt(i+1) == 'u'){    
-                Character c = (char)Integer.parseInt(uni.substring(i+2, i+6), 16);
-                result.append(c);
-                i+=5;
-            }else{
-                result.append(uni.charAt(i));
-            }
-        }
-        return result.toString();
-    }
-
-    /* 한글에서 Unicode로 변환 */
-    public static String korToUni(String kor){
-        StringBuffer result = new StringBuffer();
-        
-        for(int i=0; i<kor.length(); i++){
-            int cd = kor.codePointAt(i);
-            if (cd < 128){
-                result.append(String.format("%c", cd));
-            }else{
-                result.append(String.format("\\u%04x", cd));
-            }
-        }
-        return result.toString();
-    }
+    }    
 }

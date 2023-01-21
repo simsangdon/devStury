@@ -1,0 +1,4 @@
+* @Getter : getter메소드 자동생성 어노테이션
+ * @Setter : setter메소드 자동생성 어노테이션
+ * @NoArgsConstructor : 파라메터가 없는 기본 생성자 자동생성 어노테이션
+ * @AllArgsConstructor : 모든 필드를 파라메터로 가지는 생성자 자동생성 어노테이션

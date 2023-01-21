@@ -1,0 +1,32 @@
+참고url
+https://velog.io/@2dh2wdk/%EC%8A%A4%ED%94%84%EB%A7%81%EB%B6%80%ED%8A%B8%EC%97%90-log4j2-%EC%84%A4%EC%A0%95
+
+1. build.gradle 파일 수정
+기본적으로 spring-boot는 logback로 되어 있기 때문에 log4j를 사용하기 위해서는 의존겅 제거를 해야함
+configurations {
+    all {
+        exclude group: 'org.springframework.boot', module: 'spring-boot-starter-logging'
+    }
+}
+
+log4j2 의존성 추가
+compile 'org.springframework.boot:spring-boot-starter-log4j2'
+compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
+compile로하면 오래가 생길 때가 있어서.
+implementation 'org.springframework.boot:spring-boot-starter-log4j2'
+implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
+위와 같이 implementation 설정
+compile과 implementation차이는 compile은 상위 참고 객체까지 같이 빌드롤 하고
+implementation는 바로 상위 객체까지만 빌드를 하기 때문에 속도가 빠르고 필요한 API만 노출되어 사용할수 있다.
+
+myApp -> mySpring -> myJava
+myApp 에서 mySpring 을 의존하고 mySpring 은 myJava 를 의존합니다.
+이 때 compile 을 사용해서 mySpring 을 빌드하게 되면 mySpring 이 의존하고 있는 myJava 까지 함께 빌드합니다.
+그래서 myApp 에서 myJava 모듈이 제공하는 API 까지 사용할 수 있습니다.
+만약 myJava 를 직접적으로 사용할 필요가 없다면 필요하지 않은 API 들이 노출되고 빌드 시간도 오래 걸리기 때문에 비효율적인 행동이 됩니다.
+대신 implementation 을 사용해서 빌드하면 mySpring 모듈만 가져오기 때문에 빌드 속도가 빠르고 필요한 API 만 노출해서 사용할 수 있습니다.
+
+2. application.yml 파일수정
+logging:
+  config: classpath:log4j2.yml
+위의 내용 추가 logging에 대한 설정 파일 경로 설정

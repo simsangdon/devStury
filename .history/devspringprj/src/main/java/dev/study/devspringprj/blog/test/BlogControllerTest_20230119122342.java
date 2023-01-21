@@ -3,7 +3,6 @@ package dev.study.devspringprj.blog.test;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import dev.study.devspringprj.restApi.Server;
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -17,17 +16,7 @@ public class BlogControllerTest {
     //private Logger log = LoggerFactory.getLogger(getClass());
     @GetMapping("/test/hello")
     public String hello() {
-        log.info("잘되나? 궁금하군.");
-
-        Server server = new Server();
-        try {
-            log.info("rest실행 실습");
-            server.apiTest("get");
-            
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-                
+        log.error("잘되나? 궁금하군.");
         return "<div>hello spring boot_심상돈111</div>";
     }
 }

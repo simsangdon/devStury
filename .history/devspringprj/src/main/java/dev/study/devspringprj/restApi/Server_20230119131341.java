@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLDecoder;
 
+import org.apache.taglibs.standard.extra.spath.ASCII_UCodeESC_CharStream;
+import org.apache.tomcat.util.buf.Ascii;
+import org.hibernate.type.StringRepresentableType;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -36,7 +40,9 @@ public class Server {
                 String line;
 
                 while((line = br.readLine()) != null) {
-                    line = uniToKor(line);
+                    log.info("bef : " + line);
+                    line = URLDecoder.decode(line, "UTF-8");
+                    log.info("aft : " + line);
                     sb.append(line).append("\n");
                 }
                 respCode = con.getResponseCode();
@@ -91,7 +97,9 @@ public class Server {
                 String line;
 
                 while ((line = br.readLine()) != null) {
-                    line = uniToKor(line);
+                    log.info("bef : " + line);
+                    line = URLDecoder.decode(line, "UTF-8");
+                    log.info("aft : " + line);
                     sb.append(line).append("\n");
                 }
                 br.close();
@@ -143,7 +151,7 @@ public class Server {
     }
 
     /* Unicode에서 한글로 변환 */
-    public static String uniToKor(String uni){
+    public String uniToKor(String uni){
         StringBuffer result = new StringBuffer();
         
         for(int i=0; i<uni.length(); i++){
@@ -159,7 +167,7 @@ public class Server {
     }
 
     /* 한글에서 Unicode로 변환 */
-    public static String korToUni(String kor){
+    public String korToUni(String kor){
         StringBuffer result = new StringBuffer();
         
         for(int i=0; i<kor.length(); i++){

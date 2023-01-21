@@ -6,7 +6,11 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.net.URLDecoder;
 
+import org.apache.taglibs.standard.extra.spath.ASCII_UCodeESC_CharStream;
+import org.apache.tomcat.util.buf.Ascii;
+import org.hibernate.type.StringRepresentableType;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -36,7 +40,9 @@ public class Server {
                 String line;
 
                 while((line = br.readLine()) != null) {
-                    line = uniToKor(line);
+                    log.info("bef : " + line);
+                    line = URLDecoder.decode(line, "UTF-8");
+                    log.info("aft : " + line);
                     sb.append(line).append("\n");
                 }
                 respCode = con.getResponseCode();
@@ -91,7 +97,9 @@ public class Server {
                 String line;
 
                 while ((line = br.readLine()) != null) {
+                    log.info("bef : " + line);
                     line = uniToKor(line);
+                    log.info("aft : " + line);
                     sb.append(line).append("\n");
                 }
                 br.close();

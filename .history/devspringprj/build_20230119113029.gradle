@@ -5,9 +5,6 @@ plugins {
 	id 'war'
 }
 
-group = 'dev.study'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
 
 repositories {
 	mavenCentral()
@@ -44,8 +41,8 @@ dependencies {
 	//implementation 'org.json:json:20220924'
 
 	//implementation 'org.apache.logging.log4j:log4j-core:2.19.0'                /* log4j */
-	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
-	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
+	compile 'org.springframework.boot:spring-boot-starter-log4j2'
+	compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
 }
 
 tasks.named('test') {
