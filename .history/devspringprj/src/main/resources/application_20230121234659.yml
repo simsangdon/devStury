@@ -24,5 +24,6 @@ mybatis:
     jdbc-type-for-null: varchar
     default-fetch-size: 500
 
+
 logging:
   config: classpath:log4j2.yml
