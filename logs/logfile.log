@@ -14518,3 +14518,1407 @@ found duplicate key mybatis
 [INFO ] 2023-01-21 23:56:44.384 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
 [INFO ] 2023-01-21 23:56:44.384 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
 [INFO ] 2023-01-21 23:56:44.386 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 01:01:49.157 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 21144 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:01:49.196 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:01:49.255 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:01:49.257 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:01:49.258 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:01:49.966 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:01:49.989 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:01:50.882 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:01:50.897 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:01:50.898 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:01:50.899 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:01:51.327 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:01:51.349 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:01:51.350 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2089 ms
+[INFO ] 2023-01-22 01:01:51.547 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:01:51.885 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:01:51.942 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:01:52.017 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:01:52.258 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:01:52.426 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:01:52.739 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:01:52.751 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:01:53.028 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:01:53.469 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:01:53.490 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:01:53.531 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:01:53.547 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.812 seconds (JVM running for 5.837)
+[INFO ] 2023-01-22 01:02:02.082 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:02:02.083 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:02:02.083 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 0 ms
+[INFO ] 2023-01-22 01:08:15.216 [Thread-8][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:08:15.222 [Thread-8][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 01:08:15.257 [Thread-8][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 01:08:15.474 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 21144 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:08:15.478 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:08:16.186 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:08:16.193 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:08:16.473 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:08:16.475 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:08:16.476 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:08:16.476 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:08:16.958 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:08:16.967 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:08:16.968 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1478 ms
+[INFO ] 2023-01-22 01:08:17.096 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-22 01:08:17.261 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-22 01:08:17.266 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:08:17.273 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:08:17.289 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:08:17.290 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:08:17.392 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:08:17.643 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:08:17.654 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:08:17.662 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:08:17.668 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 2.306 seconds (JVM running for 389.958)
+[INFO ] 2023-01-22 01:08:17.677 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:08:19.547 [Thread-12][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:08:19.549 [Thread-12][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2023-01-22 01:08:19.557 [Thread-12][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2023-01-22 01:08:19.655 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 21144 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:08:19.656 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:08:19.898 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:08:19.902 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:08:20.066 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:08:20.070 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:08:20.071 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:08:20.071 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:08:20.234 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:08:20.239 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:08:20.240 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 580 ms
+[INFO ] 2023-01-22 01:08:20.274 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2023-01-22 01:08:20.313 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2023-01-22 01:08:20.316 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:08:20.322 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:08:20.331 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:08:20.331 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:08:20.382 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:08:20.582 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:08:20.592 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:08:20.603 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:08:20.607 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 1.002 seconds (JVM running for 392.897)
+[INFO ] 2023-01-22 01:08:20.610 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:09:36.896 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 6700 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:09:36.906 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:09:36.953 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:09:36.953 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:09:36.954 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:09:37.600 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:09:37.626 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:09:38.322 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:09:38.334 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:09:38.334 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:09:38.335 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:09:38.668 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:09:38.682 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:09:38.683 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1728 ms
+[INFO ] 2023-01-22 01:09:38.850 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:09:39.133 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:09:39.182 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:09:39.249 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:09:39.457 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:09:39.635 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:09:39.936 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:09:39.948 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:09:40.221 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[WARN ] 2023-01-22 01:09:40.557 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - Unable to start LiveReload server
+[INFO ] 2023-01-22 01:09:40.574 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[WARN ] 2023-01-22 01:09:40.577 [restartedMain][AbstractApplicationContext.java] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 7001 is already in use
+[INFO ] 2023-01-22 01:09:40.581 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:09:40.586 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 01:09:40.597 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 01:09:40.602 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Pausing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:09:40.603 [restartedMain][DirectJDKLog.java] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-22 01:09:40.608 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Stopping ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:09:40.609 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Destroying ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:09:40.620 [restartedMain][ConditionEvaluationReportLoggingListener.java] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-22 01:09:40.644 [restartedMain][LoggingFailureAnalysisReporter.java] LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 7001 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 7001 or configure this application to listen on another port.
+
+[INFO ] 2023-01-22 01:10:45.173 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 13472 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:10:45.187 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:10:45.241 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:10:45.242 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:10:45.243 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:10:45.932 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:10:45.954 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:10:46.762 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:10:46.773 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:10:46.775 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:10:46.776 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:10:47.108 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:10:47.122 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:10:47.123 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1879 ms
+[INFO ] 2023-01-22 01:10:47.306 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:10:47.608 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:10:47.659 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:10:47.719 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:10:47.918 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:10:48.084 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:10:48.378 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:10:48.388 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:10:48.650 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:10:48.993 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:10:49.010 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:10:49.042 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:10:49.057 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.296 seconds (JVM running for 5.316)
+[INFO ] 2023-01-22 01:10:55.478 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:10:55.479 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:10:55.481 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 01:11:17.928 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:11:17.929 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:11:18.686 [http-nio-7001-exec-2][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:21:23.663 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 19576 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:21:23.676 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:21:23.724 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:21:23.725 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:21:23.726 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:21:24.324 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:21:24.347 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:21:25.079 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:21:25.090 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:21:25.091 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:21:25.092 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:21:25.388 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:21:25.402 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:21:25.402 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1675 ms
+[INFO ] 2023-01-22 01:21:25.576 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:21:25.892 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:21:25.946 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:21:25.996 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:21:26.188 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:21:26.351 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:21:26.627 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:21:26.634 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:21:26.878 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:21:27.201 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:21:27.216 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:21:27.249 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:21:27.261 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 3.967 seconds (JVM running for 4.989)
+[INFO ] 2023-01-22 01:21:45.309 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:21:45.309 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:21:45.311 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 01:21:45.399 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:21:45.399 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:21:45.962 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:28:57.901 [Thread-7][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:28:57.905 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 01:28:57.919 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 01:28:58.014 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 19576 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:28:58.015 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:28:58.332 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:28:58.337 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:28:58.470 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:28:58.471 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:28:58.471 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:28:58.473 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:28:58.617 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:28:58.624 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:28:58.625 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 606 ms
+[INFO ] 2023-01-22 01:28:58.650 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-22 01:28:58.826 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-22 01:28:58.829 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:28:58.834 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:28:58.853 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:28:58.854 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:28:58.912 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:28:59.037 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:28:59.046 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:28:59.055 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:28:59.060 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 1.087 seconds (JVM running for 456.787)
+[INFO ] 2023-01-22 01:28:59.064 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:29:09.816 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:29:09.816 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:29:09.819 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 01:29:09.830 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:29:09.831 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:29:10.220 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:30:27.585 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:30:27.596 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:30:27.644 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:30:27.645 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:30:27.646 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:30:28.279 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:30:28.300 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:30:29.038 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:30:29.051 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:30:29.052 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:30:29.053 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:30:29.363 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:30:29.377 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:30:29.378 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1731 ms
+[INFO ] 2023-01-22 01:30:29.544 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:30:29.843 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:30:29.896 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:30:29.964 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:30:30.196 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:30:30.375 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:30:30.723 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:30:30.734 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:30:30.985 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:30:31.313 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:30:31.330 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:30:31.360 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:30:31.373 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.145 seconds (JVM running for 5.126)
+[INFO ] 2023-01-22 01:34:07.505 [Thread-7][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:34:07.509 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 01:34:07.522 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 01:34:07.614 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:34:07.616 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:34:07.791 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:34:07.793 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:34:07.898 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:34:07.899 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:34:07.900 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:34:07.900 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:34:08.026 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:34:08.030 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:34:08.031 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 412 ms
+[INFO ] 2023-01-22 01:34:08.063 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-22 01:34:08.129 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-22 01:34:08.132 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:34:08.137 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:34:08.157 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:34:08.157 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:34:08.202 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:34:08.311 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:34:08.318 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:34:08.327 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:34:08.332 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.757 seconds (JVM running for 222.085)
+[INFO ] 2023-01-22 01:34:08.334 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:38:41.217 [Thread-9][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:38:41.217 [Thread-9][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2023-01-22 01:38:41.228 [Thread-9][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2023-01-22 01:38:41.314 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:38:41.316 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:38:41.502 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:38:41.505 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:38:41.612 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:38:41.615 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:38:41.616 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:38:41.617 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:38:41.745 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:38:41.751 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:38:41.752 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 433 ms
+[INFO ] 2023-01-22 01:38:41.778 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2023-01-22 01:38:41.823 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2023-01-22 01:38:41.826 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:38:41.831 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:38:41.865 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:38:41.866 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:38:41.919 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:38:42.047 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:38:42.055 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:38:42.064 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:38:42.069 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.795 seconds (JVM running for 495.822)
+[INFO ] 2023-01-22 01:38:42.071 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:38:58.063 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:38:58.064 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:38:58.065 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-22 01:38:58.141 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:38:58.142 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:38:58.759 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:39:58.641 [Thread-14][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:39:58.643 [Thread-14][HikariDataSource.java] HikariDataSource - HikariPool-3 - Shutdown initiated...
+[INFO ] 2023-01-22 01:39:58.653 [Thread-14][HikariDataSource.java] HikariDataSource - HikariPool-3 - Shutdown completed.
+[INFO ] 2023-01-22 01:39:58.737 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:39:58.738 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:39:58.905 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:39:58.907 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:39:59.006 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:39:59.008 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:39:59.009 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:39:59.010 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:39:59.122 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:39:59.126 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:39:59.126 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 385 ms
+[INFO ] 2023-01-22 01:39:59.158 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-4 - Starting...
+[ERROR] 2023-01-22 01:40:01.579 [restartedMain][HikariPool.java] HikariPool - HikariPool-4 - Exception during pool initialization.
+java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:559) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:554) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1376) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:700) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:771) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:390) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1471) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1220) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1174) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1032) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:648) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1039) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159) ~[spring-jdbc-5.3.18.jar:5.3.18]
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117) ~[spring-jdbc-5.3.18.jar:5.3.18]
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80) ~[spring-jdbc-5.3.18.jar:5.3.18]
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:330) ~[spring-jdbc-5.3.18.jar:5.3.18]
+	at org.springframework.boot.jdbc.EmbeddedDatabaseConnection.isEmbedded(EmbeddedDatabaseConnection.java:162) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateDefaultDdlAutoProvider.getDefaultDdlAuto(HibernateDefaultDdlAutoProvider.java:42) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.lambda$getVendorProperties$1(HibernateJpaConfiguration.java:130) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateSettings.getDdlAuto(HibernateSettings.java:41) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineDdlAuto(HibernateProperties.java:143) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.getAdditionalProperties(HibernateProperties.java:103) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateProperties.determineHibernateProperties(HibernateProperties.java:95) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaConfiguration.getVendorProperties(HibernateJpaConfiguration.java:132) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.entityManagerFactory(JpaBaseConfiguration.java:132) ~[spring-boot-autoconfigure-2.6.6.jar:2.6.6]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at dev.study.devspringprj.DevspringprjApplication.main(DevspringprjApplication.java:10) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+[INFO ] 2023-01-22 01:40:01.594 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:40:01.607 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-4 - Starting...
+[ERROR] 2023-01-22 01:40:03.758 [restartedMain][HikariPool.java] HikariPool - HikariPool-4 - Exception during pool initialization.
+java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:559) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:554) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1376) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:700) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:771) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:390) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1471) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1220) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1174) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1032) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:648) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1039) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at dev.study.devspringprj.DevspringprjApplication.main(DevspringprjApplication.java:10) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+[WARN ] 2023-01-22 01:40:03.760 [restartedMain][JdbcEnvironmentInitiator.java] JdbcEnvironmentInitiator - HHH000342: Could not obtain connection to query metadata
+java.sql.SQLException: ORA-01017: 사용자명/비밀번호가 부적합, 로그온할 수 없습니다.
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:630) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:559) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:554) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.processError(T4CTTIfun.java:1376) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.processError(T4CTTIoauthenticate.java:700) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:771) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:299) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:390) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTHWithO5Logon(T4CTTIoauthenticate.java:1471) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1220) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CTTIoauthenticate.doOAUTH(T4CTTIoauthenticate.java:1174) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.authenticateUserForLogon(T4CConnection.java:1032) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:648) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:1039) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:90) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:728) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:649) ~[ojdbc8-21.3.0.0.jar:21.3.0.0.0]
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:181) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at dev.study.devspringprj.DevspringprjApplication.main(DevspringprjApplication.java:10) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+[ERROR] 2023-01-22 01:40:03.763 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[WARN ] 2023-01-22 01:40:03.764 [restartedMain][AbstractApplicationContext.java] AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+[INFO ] 2023-01-22 01:40:03.766 [restartedMain][DirectJDKLog.java] StandardService - Stopping service [Tomcat]
+[INFO ] 2023-01-22 01:40:03.773 [restartedMain][ConditionEvaluationReportLoggingListener.java] ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[ERROR] 2023-01-22 01:40:03.800 [restartedMain][SpringApplication.java] SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at dev.study.devspringprj.DevspringprjApplication.main(DevspringprjApplication.java:10) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 21 more
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:138) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:175) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:173) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494) ~[hibernate-core-5.6.7.Final.jar:5.6.7.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341) ~[spring-orm-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.18.jar:5.3.18]
+	... 21 more
+[INFO ] 2023-01-22 01:40:11.329 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:40:11.330 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:40:11.485 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:40:11.487 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:40:11.553 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:40:11.553 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:40:11.554 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:40:11.554 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:40:11.664 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:40:11.669 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:40:11.669 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 335 ms
+[INFO ] 2023-01-22 01:40:11.692 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-5 - Starting...
+[INFO ] 2023-01-22 01:40:11.770 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-5 - Start completed.
+[INFO ] 2023-01-22 01:40:11.773 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:40:11.777 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:40:11.784 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:40:11.784 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:40:11.830 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:40:11.912 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:40:11.923 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:40:11.935 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:40:11.941 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.648 seconds (JVM running for 585.694)
+[INFO ] 2023-01-22 01:40:11.944 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:40:38.897 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:40:38.897 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:40:38.898 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-22 01:40:55.402 [http-nio-7001-exec-4][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:40:55.403 [http-nio-7001-exec-4][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:40:55.566 [http-nio-7001-exec-4][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:40:56.131 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:40:56.131 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:40:56.288 [http-nio-7001-exec-5][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:40:58.177 [http-nio-7001-exec-8][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:40:58.178 [http-nio-7001-exec-8][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:40:58.332 [http-nio-7001-exec-8][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:40:59.313 [http-nio-7001-exec-9][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:40:59.314 [http-nio-7001-exec-9][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:40:59.453 [http-nio-7001-exec-9][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:45:24.676 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:45:24.678 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:45:25.059 [http-nio-7001-exec-3][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:49:47.313 [Thread-19][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:49:47.314 [Thread-19][HikariDataSource.java] HikariDataSource - HikariPool-5 - Shutdown initiated...
+[INFO ] 2023-01-22 01:49:47.325 [Thread-19][HikariDataSource.java] HikariDataSource - HikariPool-5 - Shutdown completed.
+[ERROR] 2023-01-22 01:49:47.390 [restartedMain][SpringApplication.java] SpringApplication - Application run failed
+org.yaml.snakeyaml.constructor.DuplicateKeyException: while constructing a mapping
+ in 'reader', line 1, column 1:
+    server:
+    ^
+found duplicate key spring
+ in 'reader', line 17, column 1:
+    spring:
+    ^
+
+	at org.yaml.snakeyaml.constructor.SafeConstructor.processDuplicateKeys(SafeConstructor.java:105) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.flattenMapping(SafeConstructor.java:76) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:189) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:461) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:556) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:230) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:220) ~[snakeyaml-1.29.jar:?]
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.constructObject(OriginTrackedYamlLoader.java:119) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:174) ~[snakeyaml-1.29.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:139) ~[snakeyaml-1.29.jar:?]
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514) ~[snakeyaml-1.29.jar:?]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166) ~[spring-beans-5.3.18.jar:5.3.18]
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66) ~[spring-boot-2.6.6.jar:2.6.6]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:339) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:297) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-2.6.6.jar:2.6.6]
+	at dev.study.devspringprj.DevspringprjApplication.main(DevspringprjApplication.java:10) ~[main/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.6.jar:2.6.6]
+[INFO ] 2023-01-22 01:49:59.993 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 16884 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:49:59.994 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:50:00.131 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:50:00.134 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:50:00.207 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:50:00.209 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:50:00.209 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:50:00.210 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:50:00.325 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:50:00.331 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:50:00.331 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 334 ms
+[INFO ] 2023-01-22 01:50:00.361 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-6 - Starting...
+[INFO ] 2023-01-22 01:50:00.427 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-6 - Start completed.
+[INFO ] 2023-01-22 01:50:00.429 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:50:00.434 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:50:00.471 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:50:00.471 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:50:00.509 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:50:00.591 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:50:00.596 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:50:00.607 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:50:00.612 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.655 seconds (JVM running for 1174.365)
+[INFO ] 2023-01-22 01:50:00.613 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 01:50:06.260 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 15580 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:50:06.269 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:50:06.319 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:50:06.320 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:50:06.321 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:50:06.966 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:50:06.990 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:50:07.787 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:50:07.800 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:50:07.801 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:50:07.802 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:50:08.174 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:50:08.190 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:50:08.190 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1868 ms
+[INFO ] 2023-01-22 01:50:08.350 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:50:08.654 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:50:08.709 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:50:08.773 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:50:09.020 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:50:09.183 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:50:09.454 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:50:09.462 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:50:09.715 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:50:10.121 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:50:10.138 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:50:10.173 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:50:10.186 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.302 seconds (JVM running for 5.236)
+[INFO ] 2023-01-22 01:50:13.195 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:50:13.196 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:50:13.197 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-22 01:50:13.284 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 01:50:13.285 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 01:50:13.657 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 01:57:19.770 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 13772 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:57:19.782 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:57:19.833 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 01:57:19.834 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 01:57:19.834 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 01:57:20.554 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:57:20.584 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:57:21.574 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:57:21.587 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:57:21.588 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:57:21.589 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:57:22.020 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:57:22.044 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:57:22.045 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2209 ms
+[INFO ] 2023-01-22 01:57:22.275 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 01:57:22.666 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 01:57:22.729 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:57:22.802 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 01:57:23.049 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 01:57:23.209 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:57:23.522 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:57:23.533 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:57:23.834 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:57:24.202 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:57:24.223 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:57:24.260 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:57:24.278 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.897 seconds (JVM running for 5.867)
+[INFO ] 2023-01-22 01:58:08.546 [http-nio-7001-exec-3][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:58:08.547 [http-nio-7001-exec-3][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 01:58:08.548 [http-nio-7001-exec-3][FrameworkServlet.java] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-22 01:58:34.489 [Thread-8][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 01:58:34.496 [Thread-8][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 01:58:34.519 [Thread-8][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 01:58:34.649 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 13772 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 01:58:34.651 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 01:58:34.929 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 01:58:34.933 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 01:58:35.043 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 01:58:35.044 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:58:35.045 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 01:58:35.045 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 01:58:35.185 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 01:58:35.191 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 01:58:35.192 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 533 ms
+[INFO ] 2023-01-22 01:58:35.228 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-22 01:58:35.278 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-22 01:58:35.282 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 01:58:35.288 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 01:58:35.328 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 01:58:35.329 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 01:58:35.391 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 01:58:35.529 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 01:58:35.537 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 01:58:35.543 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 01:58:35.548 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.96 seconds (JVM running for 77.137)
+[INFO ] 2023-01-22 01:58:35.556 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 02:02:12.024 [Thread-11][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 02:02:12.025 [Thread-11][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown initiated...
+[INFO ] 2023-01-22 02:02:12.033 [Thread-11][HikariDataSource.java] HikariDataSource - HikariPool-2 - Shutdown completed.
+[INFO ] 2023-01-22 02:02:12.145 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 13772 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:02:12.147 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:02:12.397 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:02:12.399 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:02:12.502 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:02:12.504 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:02:12.505 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:02:12.505 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:02:12.624 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:02:12.629 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:02:12.630 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 474 ms
+[INFO ] 2023-01-22 02:02:12.666 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Starting...
+[INFO ] 2023-01-22 02:02:12.709 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-3 - Start completed.
+[INFO ] 2023-01-22 02:02:12.712 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:02:12.716 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:02:12.743 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:02:12.744 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:02:12.797 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:02:12.880 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:02:12.888 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:02:12.897 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:02:12.901 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 0.822 seconds (JVM running for 294.489)
+[INFO ] 2023-01-22 02:02:12.905 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 02:02:47.311 [http-nio-7001-exec-2][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:02:47.312 [http-nio-7001-exec-2][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:02:47.314 [http-nio-7001-exec-2][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 02:02:47.333 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:02:47.334 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:02:48.039 [http-nio-7001-exec-2][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:18.800 [http-nio-7001-exec-6][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:18.802 [http-nio-7001-exec-6][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:18.959 [http-nio-7001-exec-6][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:36.264 [http-nio-7001-exec-7][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:36.265 [http-nio-7001-exec-7][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:36.416 [http-nio-7001-exec-7][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:38.151 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:38.152 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:38.285 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:38.776 [http-nio-7001-exec-4][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:38.777 [http-nio-7001-exec-4][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:38.923 [http-nio-7001-exec-4][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:39.367 [http-nio-7001-exec-10][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:39.369 [http-nio-7001-exec-10][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:39.515 [http-nio-7001-exec-10][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:03:40.030 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:03:40.031 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:03:40.178 [http-nio-7001-exec-5][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:08:05.670 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 11360 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:08:05.681 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:08:05.731 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 02:08:05.732 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 02:08:05.733 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 02:08:06.375 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:08:06.399 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:08:07.140 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:08:07.157 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:08:07.159 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:08:07.160 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:08:07.631 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:08:07.648 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:08:07.648 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1913 ms
+[INFO ] 2023-01-22 02:08:07.826 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 02:08:08.206 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 02:08:08.259 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:08:08.327 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 02:08:08.554 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 02:08:08.714 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:08:09.016 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:08:09.027 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:08:09.278 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:08:09.609 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:08:09.625 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:08:09.656 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:08:09.669 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.391 seconds (JVM running for 5.403)
+[INFO ] 2023-01-22 02:08:14.897 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:08:14.898 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:08:14.900 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 02:08:14.997 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:08:14.998 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:08:15.656 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:08:38.314 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:08:38.316 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:08:38.464 [http-nio-7001-exec-3][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:08:54.485 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:08:54.486 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:08:54.679 [http-nio-7001-exec-2][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:10:52.161 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:10:52.162 [http-nio-7001-exec-5][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:10:52.300 [http-nio-7001-exec-5][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:10:58.854 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 3680 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:10:58.865 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:10:58.914 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 02:10:58.915 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 02:10:58.916 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 02:10:59.601 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:10:59.632 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:11:00.504 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:11:00.514 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:11:00.515 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:11:00.516 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:11:00.817 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:11:00.831 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:11:00.831 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1914 ms
+[INFO ] 2023-01-22 02:11:00.998 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 02:11:01.296 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 02:11:01.351 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:11:01.408 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 02:11:01.629 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 02:11:01.776 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:11:02.088 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:11:02.098 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:11:02.340 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:11:02.689 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:11:02.704 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:11:02.737 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:11:02.751 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.295 seconds (JVM running for 5.326)
+[INFO ] 2023-01-22 02:11:07.749 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:11:07.749 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:11:07.751 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2023-01-22 02:11:07.843 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.844 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.845 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.845 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.845 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.846 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.846 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[ERROR] 2023-01-22 02:11:07.847 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 에러 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:11:07.847 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:11:08.237 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:13:01.003 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.005 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.005 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.007 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.008 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.009 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.009 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[ERROR] 2023-01-22 02:13:01.010 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - 에러 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:13:01.011 [http-nio-7001-exec-3][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:13:01.163 [http-nio-7001-exec-3][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:14:01.029 [Thread-7][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2023-01-22 02:14:01.033 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2023-01-22 02:14:01.044 [Thread-7][HikariDataSource.java] HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2023-01-22 02:14:01.137 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 3680 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:14:01.140 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:14:01.393 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:14:01.396 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:14:01.574 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:14:01.575 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:14:01.576 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:14:01.577 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:14:01.826 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:14:01.832 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:14:01.832 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
+[INFO ] 2023-01-22 02:14:01.865 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2023-01-22 02:14:02.017 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2023-01-22 02:14:02.020 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:14:02.025 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:14:02.033 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:14:02.034 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:14:02.085 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:14:02.211 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:14:02.218 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:14:02.225 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:14:02.229 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 1.125 seconds (JVM running for 184.804)
+[INFO ] 2023-01-22 02:14:02.233 [restartedMain][ConditionEvaluationDeltaLoggingListener.java] ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2023-01-22 02:14:24.994 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:14:24.996 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:14:25.001 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2023-01-22 02:14:25.025 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:14:25.026 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[ERROR] 2023-01-22 02:14:25.026 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 에러 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:14:25.027 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:14:25.401 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:16:01.658 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 23264 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:16:01.670 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:16:01.718 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 02:16:01.720 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 02:16:01.720 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 02:16:02.387 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:16:02.413 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:16:03.183 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:16:03.195 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:16:03.196 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:16:03.197 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:16:03.546 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:16:03.562 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:16:03.562 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1840 ms
+[INFO ] 2023-01-22 02:16:03.725 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 02:16:04.075 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 02:16:04.149 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:16:04.278 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 02:16:04.564 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 02:16:04.719 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:16:05.047 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:16:05.062 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:16:05.390 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:16:05.846 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:16:05.863 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:16:05.897 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:16:05.913 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.626 seconds (JVM running for 5.616)
+[INFO ] 2023-01-22 02:16:07.317 [http-nio-7001-exec-2][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:16:07.318 [http-nio-7001-exec-2][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:16:07.320 [http-nio-7001-exec-2][FrameworkServlet.java] DispatcherServlet - Completed initialization in 2 ms
+[INFO ] 2023-01-22 02:16:07.401 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[ERROR] 2023-01-22 02:16:07.402 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - 에러 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:16:07.403 [http-nio-7001-exec-2][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:16:07.811 [http-nio-7001-exec-2][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:16:21.152 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[ERROR] 2023-01-22 02:16:21.154 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 에러 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:16:21.155 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:16:21.313 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
+[INFO ] 2023-01-22 02:16:40.662 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Starting DevspringprjApplication using Java 17.0.5 on DESKTOP-9IOQ4GG with PID 6100 (F:\Dev\vsCode\workspace_git_20231121\devStury\devspringprj\bin\main started by donbq in F:\Dev\vsCode\workspace_git_20231121\devStury)
+[INFO ] 2023-01-22 02:16:40.675 [restartedMain][SpringApplication.java] DevspringprjApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2023-01-22 02:16:40.723 [restartedMain][DeferredLog.java] ChangeableUrls - The Class-Path manifest attribute in C:\Users\donbq\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.3.0.0\73649ab9bfb94daa4df21b80c98ac35aea4aa2f5\ojdbc8-21.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/donbq/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.3.0.0/73649ab9bfb94daa4df21b80c98ac35aea4aa2f5/oraclepki.jar
+[INFO ] 2023-01-22 02:16:40.724 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2023-01-22 02:16:40.725 [restartedMain][DeferredLog.java] DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2023-01-22 02:16:41.344 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2023-01-22 02:16:41.366 [restartedMain][RepositoryConfigurationDelegate.java] RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+[INFO ] 2023-01-22 02:16:42.114 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat initialized with port(s): 7001 (http)
+[INFO ] 2023-01-22 02:16:42.126 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Initializing ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:16:42.127 [restartedMain][DirectJDKLog.java] StandardService - Starting service [Tomcat]
+[INFO ] 2023-01-22 02:16:42.127 [restartedMain][DirectJDKLog.java] StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.60]
+[INFO ] 2023-01-22 02:16:42.434 [restartedMain][DirectJDKLog.java] TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[INFO ] 2023-01-22 02:16:42.434 [restartedMain][DirectJDKLog.java] [/devspringprj] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2023-01-22 02:16:42.434 [restartedMain][ServletWebServerApplicationContext.java] ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1708 ms
+[INFO ] 2023-01-22 02:16:42.621 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2023-01-22 02:16:42.916 [restartedMain][HikariDataSource.java] HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2023-01-22 02:16:42.967 [restartedMain][LogHelper.java] LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2023-01-22 02:16:43.033 [restartedMain][Version.java] Version - HHH000412: Hibernate ORM core version 5.6.7.Final
+[INFO ] 2023-01-22 02:16:43.262 [restartedMain][JavaReflectionManager.java] Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ] 2023-01-22 02:16:43.420 [restartedMain][Dialect.java] Dialect - HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[INFO ] 2023-01-22 02:16:43.748 [restartedMain][JtaPlatformInitiator.java] JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ] 2023-01-22 02:16:43.758 [restartedMain][AbstractEntityManagerFactoryBean.java] LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2023-01-22 02:16:44.067 [restartedMain][JpaBaseConfiguration.java] JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2023-01-22 02:16:44.494 [restartedMain][OptionalLiveReloadServer.java] OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2023-01-22 02:16:44.516 [restartedMain][DirectJDKLog.java] Http11NioProtocol - Starting ProtocolHandler ["http-nio-7001"]
+[INFO ] 2023-01-22 02:16:44.550 [restartedMain][TomcatWebServer.java] TomcatWebServer - Tomcat started on port(s): 7001 (http) with context path '/devspringprj'
+[INFO ] 2023-01-22 02:16:44.560 [restartedMain][StartupInfoLogger.java] DevspringprjApplication - Started DevspringprjApplication in 4.261 seconds (JVM running for 5.248)
+[INFO ] 2023-01-22 02:16:45.534 [http-nio-7001-exec-1][DirectJDKLog.java] [/devspringprj] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:16:45.535 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2023-01-22 02:16:45.539 [http-nio-7001-exec-1][FrameworkServlet.java] DispatcherServlet - Completed initialization in 4 ms
+[INFO ] 2023-01-22 02:16:45.651 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - 잘되나? 궁금하군.
+[INFO ] 2023-01-22 02:16:45.651 [http-nio-7001-exec-1][BlogControllerTest.java] BlogControllerTest - rest실행 실습
+[INFO ] 2023-01-22 02:16:46.085 [http-nio-7001-exec-1][Server.java] Server - 요청 응답 : 200
+{
+  "args": {}, 
+  "headers": {
+    "Accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2", 
+    "Content-Type": "application/json", 
+    "Host": "nghttp2.org", 
+    "User-Agent": "Java/17.0.5"
+  }, 
+  "origin": "1.230.44.138", 
+  "url": "https://nghttp2.org/httpbin/get"
+}
+
