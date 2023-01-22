@@ -12,7 +12,8 @@ Configutation:
       name: Console_Appender
       target: SYSTEM_OUT
       PatternLayout:
-        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t][%F] %c{1} - %msg%n"
+        pattern: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t][%F][%C][%L] %c{1} - %msg%n"
+        # pattern: "%style{%d}{bright,cyan} [%highlight{%-5level}] [%style{%t}{bright,magenta}] %style{%C{1.}}{bright,blue}: %msg%n%throwable"
     File:
       name: File_Appender
       fileName: ${log-path}/logfile.log
@@ -42,7 +43,28 @@ Configutation:
         - ref: File_Appender
         - ref: RollingFile_Appender
     Logger:
-      - name: 적용할 패키지
+      - name: jdbc.sqlonly
+        additivity: false
+        level: info
+        AppenderRef:
+          - ref: Console_Appender
+          - ref: File_Appender
+          - ref: RollingFile_Appender       
+      - name: jdbc.sqlonly
+        additivity: false
+        level: info
+        AppenderRef:
+          - ref: Console_Appender
+          - ref: File_Appender
+          - ref: RollingFile_Appender    
+      - name: jdbc.audit
+        additivity: false
+        level: info
+        AppenderRef:
+          - ref: Console_Appender
+          - ref: File_Appender
+          - ref: RollingFile_Appender
+      - name: jdbc.connection
         additivity: false
         level: info
         AppenderRef:

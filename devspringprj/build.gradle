@@ -46,6 +46,8 @@ dependencies {
 	//implementation 'org.apache.logging.log4j:log4j-core:2.19.0'                /* log4j */
 	implementation 'org.springframework.boot:spring-boot-starter-log4j2'
 	implementation group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.10.3'
+
+	implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16'         /* log4j 쿼리 로그 찍기 */
 }
 
 tasks.named('test') {

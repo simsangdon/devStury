@@ -9,8 +9,12 @@ spring:
       prefix: /WEB-INF/template/
       suffix: .jsp
   datasource:
-    driver-class-name: oracle.jdbc.OracleDriver
-    url: jdbc:oracle:thin:@localhost:1521:xe
+    # 아래 2줄을 사용하면 일반적인 JDBC연결을 한다 LOG4J상에 SQL로그가 남지 않는다.
+    # driver-class-name: oracle.jdbc.OracleDriver
+    # url: jdbc:oracle:thin:@localhost:1521:xe
+    # 아래 2줄을 사용하면 LOG4J에서 LOG를 남길수 있는 JDBC연결을 한다.
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:oracle:thin:@localhost:1521:xe
     username: hr
     password: donbq
   output:
@@ -29,3 +33,7 @@ mybatis:
 
 logging:
   config: classpath:log4j2.yml
+
+log4jdbc:
+  spylogdelegator:
+    name: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator

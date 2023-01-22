@@ -35,3 +35,24 @@ https://blog.naver.com/ai_bigdata_cloud/222926134219
 
 오라클 설정 참고
 https://blog.naver.com/explorer76/222932516398
+
+gradle로 추가된 라이브러리 위치
+/Users/${yourId}/.gradle/caches/modules-2/files-2.1/${packageName}/${libname}
+
+LOG상에 SQL로그 까지 찍으려고 하면
+1. build.gradle 파일에
+    implementation 'org.bgee.log4jdbc-log4j2:log4jdbc-log4j2-jdbc4:1.16'
+    아래 내용 추가
+2. application.yml 파일에
+    log4jdbc:
+      spylogdelegator:
+        name: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+    위의 내용 추가  
+3. application.yml 파일에
+    # 아래 2줄을 사용하면 일반적인 JDBC연결을 한다 LOG4J상에 SQL로그가 남지 않는다.
+    # driver-class-name: oracle.jdbc.OracleDriver
+    # url: jdbc:oracle:thin:@localhost:1521:xe
+    # 아래 2줄을 사용하면 LOG4J에서 LOG를 남길수 있는 JDBC연결을 한다.
+    driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+    url: jdbc:log4jdbc:oracle:thin:@localhost:1521:xe
+    위에 내용 변경
